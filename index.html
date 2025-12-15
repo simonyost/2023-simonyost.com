@@ -1,1261 +1,307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simon C. Yost | Data and Platform Engineering Manager | Champion of engineering practices to ensure premium user experience.</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simon Yost — Fractional Product & Platform Advisor</title>
+  <meta name="description" content="Fractional Product & Platform Advisory for moments when execution, cost, and complexity fall out of alignment." />
+  <meta property="og:title" content="Simon Yost — Fractional Product & Platform Advisor" />
+  <meta property="og:description" content="System-level intervention to restore clarity, predictability, and leverage." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Simon Yost">
+        <span class="brand-mark">SY</span>
+        <span class="brand-name">Simon Yost</span>
+      </a>
 
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/avatar_simon1.png" alt="Simon Yost" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Simon Yost</h1>
-
-          <p class="title">Data & Platform Engineering Leader</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">simonyost@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+1 (314) 479-8250</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">January 27</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>St. Louis, MO, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/simonyost" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="http://instagram.com/simon.yost" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-<!-- 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li> -->
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
-
-        </ul>
-
+      <nav class="nav" aria-label="Primary">
+        <a href="#who">Who this is for</a>
+        <a href="#offers">Offers</a>
+        <a href="#proof">Proof</a>
+        <a href="#process">How it works</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
       </nav>
 
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-          As a dynamic and forward-thinking technology executive, I have extensive experience 15+ years of multi-industry experience driving internal alignment to create a positive impact on the business and people, helping various organizations, including cybersecurity and IT services companies, to achieve strategic goals.
-        </p>
-        <p>
-          Being a tech leader, I design high-speed transaction systems on private/public clouds and work with managed and custom message buses to deliver reliable and efficient data solutions. I am known for finding clarity in complex situations, designing human-centered products, and aligning people and processes to drive results. 
-        </p>
-        <p>
-          As a compassionate and motivating leader with a coaching mindset, I have a passion for building high-performing teams and accelerating delivery through a focus on Agile methodologies and collaborative learning. I strive to provide value as a company resource and have consistently achieved recognition, awards, and promotional opportunities.
-        </p>
-      
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Building Data Teams</h4>
-
-                <p class="service-item-text">
-                  Launching Delta data lake, migrating from a data lake to a data lakehouse. 
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Overcoming Hurdles</h4>
-
-                <p class="service-item-text">
-                  Overcame connectivity and security hurdles in the project's last mile by leveraging best practices and outside experts.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Implimented Testing</h4>
-
-                <p class="service-item-text">
-                  Implemented automation for 82% of unit, system, and integration test cases, reducing testing time and improving product quality.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Establishing Precision Connectivity</h4>
-
-                <p class="service-item-text">
-                  Overcame the challenge of opening precision connectivity for fast throughput of new gRPC services in a PCI-compliant environment.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Nathaniel Davis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nathaniel Davis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p><b>Senior Software Engineer, InStride</b></p>
-                  <p>
-                    Simon’s leadership over the architectural discussions for the past few months has been outstanding. He is pushing all of us to come to real solutions that drive impact, and doing it with empathy and a kind, motivated heart. That's super rare in a people leader, and it's made a real difference. Thrilled to have him pushing us forward.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Alex Martellaro" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alex Martellaro</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p><b>Software Engineer</b></p>
-                  <p>
-                    Simon is an awesome teammate, leader and developer with an eye for design, but his true strength lies in seeing the big picture and making all the right connections to bring everything together. He's great at living in the intersections-- the intersection of code and design, the spaces where teams overlap, filling the gaps between solution ownership and developers. Plus, he's just a truly kind person with a huge heart. I'd be thrilled to work on a team with him again.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="John Garavito Suárez" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>John Garavito Suárez</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p><b>Data Engineer and MSc. In Computer Science</b></p>
-                  <p>
-                    Simon is one of the most committed and innovative managers I have ever had. It is a pleasure to work for him because he always facilitates communication and collaboration between different roles and promotes a healthy work environment. Thank you very much for all the learning and time shared with me.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Kit Menke" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Kit Menke</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p><b>Data Engineering Leader | STL Big Data meetup co-organizer</b></p>
-                  <p>      
-                    I worked closely with Simon at 1904labs in a variety of roles. The two things that stand out to me are: how deeply he cares about his fellow humans and his drive to make things better. Simon challenged me think bigger and better, for which I am always grateful.
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Sander Boeije" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sander Boeije</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p><b>Associate Product Manager at InStride</b></p>
-                  <p>My experience working with Simon has been incredibly enjoyable.
-                    <br><br>
-                    Simon's flexible approach to leadership, coupled with his ability to adapt and fulfill various roles within the team, demonstrates remarkable versatility. His commitment to onboarding the right talent while recognizing their individual potential exemplifies his exceptional people management skills.
-                    <br><br>
-                    Simon commendably embraces the principles of 'Servant Leadership', creating an environment where team members feel valued and motivated. His authenticity, realism, and trust in the team's intentions have a rejuvenating effect, particularly during challenging times or high-pressure situations. Simon's effective and empathetic leadership style has been crucial to the team's success, and I wholeheartedly encourage him to persist in this approach.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-
-
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Fractional Product & Platform Advisory</p>
+          <h1>When execution, cost, and complexity fall out of alignment, I help leadership restore leverage.</h1>
+          <p class="lede">
+            This is not “advice in isolation.” It’s system-level intervention that makes delivery predictable,
+            ownership clear, and decisions durable. :contentReference[oaicite:0]{index=0}
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn" href="#contact">Start a conversation</a>
+            <a class="btn btn-ghost" href="#offers">See engagement options</a>
+          </div>
+
+          <div class="hero-bullets" role="list">
+            <div class="pill" role="listitem">Delivery predictability</div>
+            <div class="pill" role="listitem">Cloud cost accountability</div>
+            <div class="pill" role="listitem">Platform & reliability rigor</div>
+            <div class="pill" role="listitem">AI readiness you can trust</div>
+          </div>
         </div>
 
-
-        <!--
-          - clients
-        -->
-
-        <!-- <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
+        <aside class="hero-card" aria-label="Quick fit check">
+          <h2>Quick fit check</h2>
+          <p class="muted">Best when you’re seeing one or more of these:</p>
+          <ul>
+            <li>Roadmap instability / missed commitments :contentReference[oaicite:1]{index=1}</li>
+            <li>Engineering effort high, outcomes unclear :contentReference[oaicite:2]{index=2}</li>
+            <li>Cloud costs rising faster than revenue :contentReference[oaicite:3]{index=3}</li>
+            <li>AI prototypes without operational rigor :contentReference[oaicite:4]{index=4}</li>
+            <li>Fragmented ownership across product/eng/data :contentReference[oaicite:5]{index=5}</li>
           </ul>
 
-        </section> -->
+          <div class="divider"></div>
 
-      </article>
+          <p class="muted"><strong>Typical clients:</strong> Series A–C SaaS, PE-backed platforms post-acquisition, or enterprise teams rescuing complex initiatives. :contentReference[oaicite:6]{index=6}</p>
+        </aside>
+      </div>
+    </section>
 
+    <section id="who" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Who this is for</h2>
+          <p class="muted">
+            Leaders who don’t need more activity — they need a coherent system for decision-making across product,
+            engineering, and data. :contentReference[oaicite:7]{index=7}
+          </p>
+        </div>
 
+        <div class="grid-3">
+          <div class="card">
+            <h3>Founders / CEOs</h3>
+            <p>When founder-led execution stops scaling and you need predictable outcomes, not heroic effort.</p>
+          </div>
+          <div class="card">
+            <h3>CTOs / CPOs</h3>
+            <p>When roadmap, architecture, and operating rhythms are misaligned — and teams feel it every week.</p>
+          </div>
+          <div class="card">
+            <h3>CFOs (secondary)</h3>
+            <p>When cost, reliability, and accountability are blurry — and you need ROI and risk framed clearly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="offers" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Engagement options</h2>
+          <p class="muted">
+            Designed to avoid staff-augmentation dynamics and preserve pricing power. :contentReference[oaicite:8]{index=8}
+          </p>
+        </div>
 
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+        <div class="stack">
+          <div class="offer">
+            <div class="offer-title">
+              <h3>1) Fractional Product & Platform Advisory (Primary)</h3>
+              <span class="tag">Monthly retainer • 3–6 months typical</span>
             </div>
-
-            <h3 class="h3">Experience</h3>
+            <p><strong>Role:</strong> Embedded advisor and fractional leader. :contentReference[oaicite:9]{index=9}</p>
+            <div class="cols">
+              <div>
+                <p class="muted"><strong>Scope</strong></p>
+                <ul>
+                  <li>Product–engineering alignment :contentReference[oaicite:10]{index=10}</li>
+                  <li>Platform / architecture decision-making :contentReference[oaicite:11]{index=11}</li>
+                  <li>Cloud cost & reliability oversight :contentReference[oaicite:12]{index=12}</li>
+                  <li>Data & AI readiness assessment :contentReference[oaicite:13]{index=13}</li>
+                  <li>Executive decision support :contentReference[oaicite:14]{index=14}</li>
+                </ul>
+              </div>
+              <div>
+                <p class="muted"><strong>Success looks like</strong></p>
+                <ul>
+                  <li>Predictable delivery :contentReference[oaicite:15]{index=15}</li>
+                  <li>Clear operating rhythms :contentReference[oaicite:16]{index=16}</li>
+                  <li>Measured improvement in cost, velocity, or reliability :contentReference[oaicite:17]{index=17}</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">InStride / Manager, Platform and Data Engineering</h4>
-
-              <span>2022 to Present</span>
-
-              <p class="timeline-text">
-                Lead two software engineering teams specializing in data and platform building blocks, managing 12 contractors and two FTE. Facilitate conversations about the tech stack to make it more sustainable and integrated it into projects and initiatives to drive business progress. Coach and mentor engineers on framing up problems for better communication and collaboration with partners. Build and manage skillset profiles to recruit the right contractors for technical roles. Select and manage vendors for managed technical services, such as Confluent, Mongo Atlas, and Astronomer Io.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Mastercard / Manager, Data and Software Engineering</h4>
-
-              <span>2021 - 2022</span>
-
-              <p class="timeline-text">
-                Managed a team of seven direct reports, ranging from junior to staff engineers, in their effort to support the Next Edge program that virtualized the Mastercard network infrastructure. Led the team in building and integrating gRPC technology to modernize the infrastructure for merchants, acquirers, and other organizations. Ensured alignment with the architecture team to implement practical solutions. Oversaw hiring, firing, and onboarding while conducting performance reviews. 
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">1904labs / Agile Engineering Leader</h4>
-
-              <span>2019 - 2021</span>
-
-              <p class="timeline-text">
-                Provided servant leadership as a technical lead and client liaison for a software development company that transforms Fortune 500 and Global 2000 companies' ideas into digital solutions. Led teams of up to nine direct reports and provided technical support and agile guidance for complex software projects ranging from refactoring existing applications to building new ones.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Slalom / Senior Software Engineer</h4>
-
-              <span>2018 - 2019</span>
-
-              <p class="timeline-text">
-                Led the User Interface Engineering practice for a modern consulting firm, blending human-centered design with front-end development. Modernized data access systems for a Fortune 500 Healthcare Company, allowing for improved patient care through data-driven insights. Contributed to the launch of an international chemical company's first-ever SaaS product, expanding the company's product offerings and accelerating growth.
-              </p>
-
-            </li>
-
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Threatblockr / VP of Product</h4>
-
-              <span>2017 - 2018</span>
-
-              <p class="timeline-text">
-                Contributed to the modernization of Bandura's cybersecurity appliance and SaaS management platform deployed on AWS and GCP, spearheading an iterative refresh of the core product's user interface. Reduced the engineering team's support time by simplifying the product's default settings and recommendations by leading a technical team in exercises to develop a simple mode that could be quickly activated by customers to test and speed up the sales cycle.
-              </p>
-
-            </li>
-
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Spry Digital / Technical Project Manager</h4>
-
-              <span>2015 - 2016</span>
-
-              <p class="timeline-text">
-                Drove web application and marketing solutions and open-source integration projects for diverse clients, including enterprise, government, and non-profit sectors, managing up to eight direct reports. Conducted deep-dive technical meetings to ensure architectural clarity and created prototypes and proofs-of-concepts for potential implementation.
-              </p>
-
-            </li>
-
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Washington University in St. Louis / Adjunct Instructor</h4>
-
-              <span>2012 - 2016</span>
-
-              <p class="timeline-text">
-                Developed and implemented a content-first front-end curriculum for a popular web development course in the WashU School of Engineering & Applied Science over five semesters. Increased student interest and enrollment from diverse majors including business, graphic design, and computer science. Managed a team of four TAs, facilitating mentorship and ensuring quality grading standards.
-              </p>
-
-            </li>
-
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Greater Goods / Director of Creative Operations</h4>
-
-              <span>2015 - 2015</span>
-
-              <p class="timeline-text">
-                Spearheaded the development of customized web applications by leading multi-disciplinary teams to deliver top-notch products for digital distribution, which contributed to a significant increase in revenue. Managed the entire product development process, from idea conception to factory production, leading to the launching of multiple products. Collaborated with marketing teams to create digital content for various micro-brands, resulting in an expansion of the company's customer base.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">The Journey / Chief Technology Officer</h4>
-
-              <span>2009 - 2015</span>
-
-              <p class="timeline-text">
-                Spearheaded custom web application development, traditional IT functions, and live productions across all sites. Orchestrated a software engineering team of six as a servant leader, guiding and mentoring them toward successful project outcomes. Directed the technical architecture, requirements, and specifications for a content syndication application, resulting in the development of a highly effective solution.
-              </p>
-
-            </li>
-
-
-
-          </ol>
-
-        </section>
-
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+          <div class="offer">
+            <div class="offer-title">
+              <h3>2) Platform, Cost & Reliability Reset (Entry)</h3>
+              <span class="tag">4–6 weeks</span>
             </div>
-
-            <h3 class="h3">Education</h3>
+            <p>
+              A fast, high-ROI diagnostic that creates trust and momentum. :contentReference[oaicite:18]{index=18}
+            </p>
+            <div class="cols">
+              <div>
+                <p class="muted"><strong>What I assess</strong></p>
+                <ul>
+                  <li>Cloud cost & infrastructure audit :contentReference[oaicite:19]{index=19}</li>
+                  <li>Reliability & scalability risk :contentReference[oaicite:20]{index=20}</li>
+                  <li>Complexity & ownership mapping :contentReference[oaicite:21]{index=21}</li>
+                </ul>
+              </div>
+              <div>
+                <p class="muted"><strong>Deliverables</strong></p>
+                <ul>
+                  <li>Executive-ready readout :contentReference[oaicite:22]{index=22}</li>
+                  <li>Prioritized intervention roadmap :contentReference[oaicite:23]{index=23}</li>
+                  <li>Clear ROI + risk framing :contentReference[oaicite:24]{index=24}</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">W. P. Carey School of Business at Arizona State University</h4>
-
-              <span>2023 — 2024</span>
-
-              <p class="timeline-text">
-                Master of Business Administration (Candidate)
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">The University of Nebraska</h4>
-
-              <span>2001 — 2005</span>
-
-              <p class="timeline-text">
-                Bachelor of Fine Arts
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Technical Leadership</h5>
-                <data value="80">99%</data>
+          <div class="offer">
+            <div class="offer-title">
+              <h3>3) AI Readiness & Operationalization Advisory</h3>
+              <span class="tag">Go / no-go clarity</span>
+            </div>
+            <p>
+              Move AI from prototype to dependable systems by aligning architecture, data quality, risk, and operating model. :contentReference[oaicite:25]{index=25}
+            </p>
+            <div class="cols">
+              <div>
+                <p class="muted"><strong>Scope</strong></p>
+                <ul>
+                  <li>Data quality & governance :contentReference[oaicite:26]{index=26}</li>
+                  <li>AI system architecture review :contentReference[oaicite:27]{index=27}</li>
+                  <li>Trust / reliability risk considerations :contentReference[oaicite:28]{index=28}</li>
+                  <li>Operating model alignment :contentReference[oaicite:29]{index=29}</li>
+                </ul>
               </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 99%;"></div>
+              <div>
+                <p class="muted"><strong>Outcome</strong></p>
+                <ul>
+                  <li>Clear go / no-go decisions :contentReference[oaicite:30]{index=30}</li>
+                  <li>Reduced execution risk :contentReference[oaicite:31]{index=31}</li>
+                  <li>Ambition matched to capability :contentReference[oaicite:32]{index=32}</li>
+                </ul>
               </div>
+            </div>
+          </div>
 
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Big Data Technologies</h5>
-                <data value="70">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Strategic Planning & Execution</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Financial Management & Forecasting</h5>
-                <data value="50">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
+          <div class="card subtle">
+            <h3>What I do not do</h3>
+            <p class="muted">If you want staff augmentation or execution-for-hire, I’m the wrong choice.</p>
+            <ul>
+              <li>Staff augmentation :contentReference[oaicite:33]{index=33}</li>
+              <li>Pure delivery roles :contentReference[oaicite:34]{index=34}</li>
+              <li>Generic “AI strategy” :contentReference[oaicite:35]{index=35}</li>
+              <li>Creative services (design/video/web dev) :contentReference[oaicite:36]{index=36}</li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="proof" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Proof (selected outcomes)</h2>
+          <p class="muted">Used to establish credibility — not as sales copy. :contentReference[oaicite:37]{index=37}</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="metric card">
+            <div class="metric-value">$12M+</div>
+            <div class="metric-label">annual cloud savings (Fortune 500 platform) :contentReference[oaicite:38]{index=38}</div>
+          </div>
+          <div class="metric card">
+            <div class="metric-value">$750K/mo</div>
+            <div class="metric-label">infrastructure regressions eliminated :contentReference[oaicite:39]{index=39}</div>
+          </div>
+          <div class="metric card">
+            <div class="metric-value">66%</div>
+            <div class="metric-label">burn reduction while improving product velocity :contentReference[oaicite:40]{index=40}</div>
+          </div>
+          <div class="metric card">
+            <div class="metric-value">99.9%</div>
+            <div class="metric-label">parity migrations + major delivery-velocity gains :contentReference[oaicite:41]{index=41}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>How it works</h2>
+          <p class="muted">Systems over tactics. Outcomes over activity. :contentReference[oaicite:42]{index=42}</p>
+        </div>
+
+        <div class="timeline">
+          <div class="step card">
+            <h3>1) Diagnose the system</h3>
+            <p>Map decision paths, ownership boundaries, cost/reliability drivers, and the constraints behind missed commitments.</p>
+          </div>
+          <div class="step card">
+            <h3>2) Restore operating rhythm</h3>
+            <p>Create the minimum set of mechanisms that make delivery predictable and accountability explicit.</p>
+          </div>
+          <div class="step card">
+            <h3>3) Intervene where leverage is real</h3>
+            <p>Prioritize the moves that shift cost, velocity, or reliability — not the ones that merely create motion.</p>
+          </div>
+          <div class="step card">
+            <h3>4) Make it durable</h3>
+            <p>Leave behind a decision model leadership can run without dependency on heroics or a single person.</p>
+          </div>
+        </div>
+
+        <div class="card subtle">
+          <h3>Internal decision filter (for both of us)</h3>
+          <p class="muted">If the work doesn’t meet at least 3 of these, it’s probably a distraction. :contentReference[oaicite:43]{index=43}</p>
+          <ul>
+            <li>Execution is breaking down under complexity :contentReference[oaicite:44]{index=44}</li>
+            <li>Leadership wants clarity, not just delivery :contentReference[oaicite:45]{index=45}</li>
+            <li>There’s real leverage to improve outcomes :contentReference[oaicite:46]{index=46}</li>
+            <li>This strengthens long-term positioning :contentReference[oaicite:47]{index=47}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact card">
+          <h2>Contact</h2>
+          <p class="muted">
+            Send 3 bullets: (1) what’s breaking, (2) why now, (3) what success must look like.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn" href="mailto:simonyost@gmail.com?subject=Fractional%20Advisory%20Inquiry&body=1)%20What%E2%80%99s%20breaking%3F%0A2)%20Why%20now%3F%0A3)%20What%20does%20success%20look%20like%20in%2090%20days%3F%0A">Email Simon</a>
+            <button class="btn btn-ghost" id="copyEmail" type="button" data-email="simonyost@gmail.com">Copy email</button>
           </div>
 
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
+          <p class="tiny muted">If you need staff augmentation or execution-for-hire, don’t contact me for this. :contentReference[oaicite:48]{index=48}</p>
+        </div>
+
+        <footer class="footer">
+          <p class="tiny muted">© <span id="year"></span> Simon Yost. Built for GitHub Pages.</p>
+        </footer>
+      </div>
+    </section>
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script src="assets/script.js"></script>
 </body>
-
 </html>
