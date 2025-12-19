@@ -17,7 +17,7 @@ baseURL = "/"
 publishDir = "public"
 
 # Remote
-#baseURL = "https://simonyost.com"
+baseURL = "https://simonyost.com"
 #publishDir = "//centos/sites/hugodev/hugostory/"
 
 ## -----------------------------------------------
