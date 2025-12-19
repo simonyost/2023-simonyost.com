@@ -10,7 +10,7 @@
         {{ with .buttons }}</ul>{{ end }}
     </div>
     {{ with .image }}<div class="image">
-        <img src="{{ . }}" alt="" />
+        <img src="{{ .url }}" alt="{{ .alt }}" />
     </div>{{ end }}
 </section>
 

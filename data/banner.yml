@@ -10,4 +10,6 @@ content : |
 button:
   label : "See the Patterns"
   link : "#patterns"
-image : "images/banner.jpg"
+image:
+  url: "images/simon_010sq.jpg"
+  alt: "Simon standing at a high top table using an tablet computer"

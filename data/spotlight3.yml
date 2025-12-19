@@ -13,4 +13,6 @@ content: |
   </ul>
 
   <p>When these mechanisms are weak, teams compensate with heroics. That works until it doesn’t.</p>
-image: "images/spotlight03.jpg"
+image:
+  url: "images/simon_009sq.jpg"
+  alt: "Simon sitting in a coffee shop, legs crossed, writting in a paper notebook with a pen"

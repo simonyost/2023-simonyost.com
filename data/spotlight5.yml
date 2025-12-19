@@ -14,5 +14,6 @@ content: |
   <p>It is a fit when leadership wants clarity, leverage, and fewer late surprises as systems scale.</p>
 
   <p>Execution remains with your teams. I help ensure the system they are operating inside actually works.</p>
-
-image: "images/spotlight03.jpg"
+image:
+  url: "images/simon_014sq.jpg"
+  alt: "Simon in a coffee shop, leaning forward on a couch towards his laptop while sitting across from a collaborator"

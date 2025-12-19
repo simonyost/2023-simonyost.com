@@ -16,7 +16,9 @@ content: |
   
   <p>These are not people problems. They are system problems.</p>
   <p>Left unaddressed, these signals compound—not gradually, but suddenly.</p>
-image: "images/spotlight01.jpg"
+image:
+  url: "images/simon_001.jpg"
+  alt: "Simon smiling widely while sitting in a coffee shop with a cup of coffee in his hand."
 buttons:
   # button
   - label: "See the Patterns"

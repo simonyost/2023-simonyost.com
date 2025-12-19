@@ -13,7 +13,9 @@ content: |
   </ul>
 
   <p>This is system-level intervention, not task execution.</p>
-image: "images/spotlight03.jpg"
+image:
+  url: "images/simon_011sq.jpg"
+  alt: "Simon standing outside a conference room, laptop under his arm and walking to the next meeting"
 buttons:
   # button
   - label: "Start a Conversation"

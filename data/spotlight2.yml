@@ -11,4 +11,6 @@ content: |
   <p>When leadership solves for capacity instead of system design, execution slows even as headcount grows.</p>
 
   <p>This is how organizations double spend and halve predictability without realizing why.</p>
-image: "images/spotlight02.jpg"
+image:
+  url: "images/simon_002.jpg"
+  alt: "Simon in an open office looking down the hallway and holding a smart phone"

@@ -14,4 +14,6 @@ content: |
   <p>You leave with an executive-level readout and a clear recommendation on whether deeper advisory work makes sense.</p>
   <p>Not every situation warrants deeper engagement. The diagnostic is how we determine that quickly.
   It is designed to create clarity, not lock you into a longer engagement.</p>
-image: "images/spotlight03.jpg"
+image:
+  url: "images/simon_015sq.jpg"
+  alt: "Simon sitting at a high top table gazing out the window into the sun"

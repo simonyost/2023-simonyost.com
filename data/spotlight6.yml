@@ -14,4 +14,6 @@ content: |
   <p>Without intervention, these same systems usually respond by hiring more, spending more, and trusting less.</p>
 
   <p>The common thread is not effort. It is alignment.</p>
-image: "images/spotlight02.jpg"
+image:
+  url: "images/simon_012.jpg"
+  alt: "Simon sitting at an outdoor cafe in the morning sun working on his laptop computer"
