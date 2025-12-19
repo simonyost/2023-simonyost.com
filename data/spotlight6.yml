@@ -13,3 +13,8 @@ content: |
 
   <p>The common thread is not effort. It is alignment.</p>
 image: "images/spotlight02.jpg"
+buttons:
+  # button
+  - label: "Start a Conversation"
+    link: "#contactForm"
+    style : "primary"

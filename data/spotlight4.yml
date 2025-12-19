@@ -10,6 +10,14 @@ content: |
   <li>Reduce decision latency and escalation paths</li>
   <li>Align architecture and operating rhythms to business reality</li>
   <li>Restore predictability without slowing momentum</li>
-  <li>This is system-level intervention, not task execution.</li>
   </ul>
+
+  <p>This is system-level intervention, not task execution.</p>
 image: "images/spotlight03.jpg"
+buttons:
+  # button
+  - label: "Start a Conversation"
+    link: "#contactForm"
+  - label: "See the Patterns"
+    link: "#patterns"
+    style : "primary"

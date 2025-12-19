@@ -1,6 +1,6 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-title : "The Real Problem"
+title : "The Bottleneck Shifts Before Anyone Notices"
 content: |
   At scale, execution fails upstream of delivery.
 
@@ -14,3 +14,10 @@ content: |
 
   When these mechanisms are weak, teams compensate with heroics. That works until it doesn’t.
 image: "images/spotlight03.jpg"
+buttons:
+  # button
+  - label: "Start a Conversation"
+    link: "#contactForm"
+  - label: "See the Patterns"
+    link: "#patterns"
+    style : "primary"

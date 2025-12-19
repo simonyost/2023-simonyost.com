@@ -10,3 +10,10 @@ content: |
 
   <p>When leadership solves for capacity instead of system design, execution slows even as headcount grows.</p>
 image: "images/spotlight02.jpg"
+buttons:
+  # button
+  - label: "Start a Conversation"
+    link: "#contactForm"
+  - label: "See the Patterns"
+    link: "#patterns"
+    style : "primary"

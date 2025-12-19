@@ -12,4 +12,10 @@ content: |
   </ul> 
 
   <p>You leave with an executive-level readout and a clear recommendation on whether deeper advisory work makes sense.</p>
+  <p>Not every situation warrants deeper engagement. The diagnostic is how we determine that quickly.</p>
 image: "images/spotlight03.jpg"
+buttons:
+  # button
+  - label: "Start a Conversation"
+    link: "#contactForm"
+    style : "primary"

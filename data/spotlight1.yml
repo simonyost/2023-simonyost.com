@@ -16,3 +16,10 @@ content: |
   
   These are not people problems. They are system problems.
 image: "images/spotlight01.jpg"
+buttons:
+  # button
+  - label: "Start a Conversation"
+    link: "#contactForm"
+  - label: "See the Patterns"
+    link: "#patterns"
+    style : "primary"

@@ -2,15 +2,11 @@
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "When Execution Stops Scaling, More Resources Make It Worse"
 subtitle: |
-  I help leadership teams realign product, engineering, data, and cost when complexity breaks delivery.
-content : |
-  This is At a certain point, adding people, tools, or initiatives stops improving delivery and starts amplifying dysfunction.
-  
-  Roadmaps slip. Costs rise. Teams stay busy but outcomes become unpredictable. Leadership senses something is off, but the usual fixes no longer work.
-
   I help leadership teams realign product, engineering, data, and cost when complexity breaks execution.
+content : |
+  <p>At a certain point, adding people, tools, or initiatives stops improving delivery and starts amplifying dysfunction. Roadmaps slip, costs rise, and teams stay busy while outcomes become less predictable.
+  <p>That is not a capacity problem. It is a system problem.
 button:
-  label : "Get Started"
-  link : "#first"
+  label : "See the Patterns"
+  link : "#patterns"
 image : "images/banner.jpg"
-

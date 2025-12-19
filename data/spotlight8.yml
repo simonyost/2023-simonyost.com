@@ -6,6 +6,8 @@ content: |
 
   <p>Start with a conversation. We will quickly determine whether this is a fit.</p>
 image: "images/spotlight03.jpg"
-button: 
-  label: "Start a Conversation"
-  link: "#contactForm"
+buttons:
+  # button
+  - label: "Start a Conversation"
+    link: "#contactForm"
+    style : "primary"

@@ -15,3 +15,10 @@ content: |
   <p>Execution remains with your teams. I help ensure the system they are operating inside actually works.</p>
 
 image: "images/spotlight03.jpg"
+buttons:
+  # button
+  - label: "Start a Conversation"
+    link: "#contactForm"
+  - label: "See the Patterns"
+    link: "#patterns"
+    style : "primary"
