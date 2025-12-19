@@ -2,7 +2,7 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title : "Restoring Clarity Creates Measurable Leverage"
 content: |
-  When execution systems are realigned, the results compound quickly:
+  <p>When execution systems are realigned, the results compound quickly:</p>
   
   <ul>
   <li>Multi-million-dollar annual cloud cost reductions</li>
@@ -11,7 +11,7 @@ content: |
   <li>Improved delivery predictability without adding headcount</li>
   </ul> 
 
-  <pWithout intervention, these same systems usually respond by hiring more, spending more, and trusting less.</p>
+  <p>Without intervention, these same systems usually respond by hiring more, spending more, and trusting less.</p>
 
   <p>The common thread is not effort. It is alignment.</p>
 image: "images/spotlight02.jpg"

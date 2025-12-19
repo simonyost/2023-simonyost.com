@@ -1,4 +1,4 @@
-title : "Where Execution Quietly Breaks Down"
+title : "Where Execution Quietly Breaks Down at Scale"
 content: |
   <p>By the time execution visibly slows, the underlying system has already been under strain. Across startups and large platforms, the failure modes are remarkably consistent.</p>
   <p>The patterns below are the situations I am typically brought in to diagnose and correct. These patterns rarely appear in isolation. Most organizations experience three or more simultaneously.</p>

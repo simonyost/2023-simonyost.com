@@ -2,8 +2,8 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title : I Work at the Decision Layer, Not the Task Layer
 content: |
-  My role is not to manage tickets or deliver features.
-  I work with executives to:
+  <p>My role is not to manage tickets or deliver features.
+  <br>I work with executives to:</p>
   
   <ul>
   <li>Clarify ownership across product, engineering, and data</li>

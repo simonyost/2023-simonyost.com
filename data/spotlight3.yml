@@ -2,9 +2,9 @@
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 title : "The Bottleneck Shifts Before Anyone Notices"
 content: |
-  At scale, execution fails upstream of delivery.
+  <p>At scale, execution fails upstream of delivery.</p>
 
-  The real constraints become:
+  <p>The real constraints become:</p>
   <ul>
   <li>How decisions are made</li>
   <li>Who owns cross-cutting outcomes</li>
@@ -12,9 +12,5 @@ content: |
   <li>Whether cost, reliability, and speed are governed intentionally</li>
   </ul>
 
-  When these mechanisms are weak, teams compensate with heroics. That works until it doesn’t.
+  <p>When these mechanisms are weak, teams compensate with heroics. That works until it doesn’t.</p>
 image: "images/spotlight03.jpg"
-buttons:
-  # button
-  - label: "See the Patterns"
-    link: "#patterns"

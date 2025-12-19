@@ -12,7 +12,3 @@ content: |
 
   <p>This is how organizations double spend and halve predictability without realizing why.</p>
 image: "images/spotlight02.jpg"
-buttons:
-  # button
-  - label: "See the Patterns"
-    link: "#patterns"
