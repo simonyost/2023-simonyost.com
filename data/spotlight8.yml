@@ -1,0 +1,11 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : "If This Sounds Familiar, We Should Talk"
+content: |
+  <p>If your organization feels busy but less predictable than it should, that is a signal worth examining.</p>
+
+  <p>Start with a conversation. We will quickly determine whether this is a fit.</p>
+image: "images/spotlight03.jpg"
+button: 
+  label: "Start a Conversation"
+  link: "#"

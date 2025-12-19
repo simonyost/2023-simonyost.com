@@ -1,10 +1,18 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "Spotlight"
+title : "The Warning Signs Show Up Long Before the Missed Deadlines"
 content: |
-  This is a <strong>Spotlight</strong> element, and it's generally used &ndash; as its name implies &ndash; to spotlight a particular feature, subject, or pretty much whatever. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-button: 
-  label: "Learn More"
-  link: "#"
+  By the time delivery is visibly failing, the system has already been under strain for months.
+
+  It usually looks like this:
+  <ul>
+  <li>Teams are shipping, but progress feels fragile</li>
+  <li>Estimates keep expanding without clear explanation</li>
+  <li>Ownership is distributed, but accountability is unclear</li>
+  <li>Decisions take longer, even when everyone agrees</li>
+  <li>Cloud and tooling costs rise faster than confidence</li>
+  </ul>
+  
+  These are not people problems. They are system problems.
 image: "images/spotlight01.jpg"

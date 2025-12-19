@@ -1,0 +1,17 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+title : This Is Advisory Work, Not Staff Augmentation
+content: |
+  This work is not a fit if you are looking for:
+  
+  <ul>
+  <li>Extra hands to increase throughput</li>
+  <li>A generic AI or cloud strategy</li>
+  <li>A long roadmap deck without accountability</li>
+  </ul>
+
+  <p>It is a fit when leadership wants clarity, leverage, and fewer late surprises as systems scale.</p>
+
+  <p>Execution remains with your teams. I help ensure the system they are operating inside actually works.</p>
+
+image: "images/spotlight03.jpg"

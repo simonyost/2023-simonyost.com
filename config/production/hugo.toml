@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Hugo Story"
+title = "Simon Yost"
 copyright = "{year}"
 
 ## -----------------------------------------------
@@ -17,7 +17,7 @@ baseURL = "/"
 publishDir = "public"
 
 # Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+#baseURL = "https://simonyost.com"
 #publishDir = "//centos/sites/hugodev/hugostory/"
 
 ## -----------------------------------------------

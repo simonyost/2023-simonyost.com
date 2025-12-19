@@ -1,10 +1,16 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-id: "first"
-title : "Spotlight"
+title : "The Real Problem"
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-button: 
-  label: "Learn More"
-  link: "#"
+  At scale, execution fails upstream of delivery.
+
+  The real constraints become:
+  <ul>
+  <li>How decisions are made</li>
+  <li>Who owns cross-cutting outcomes</li>
+  <li>How tradeoffs are surfaced and resolved</li>
+  <li>Whether cost, reliability, and speed are governed intentionally</li>
+  </ul>
+
+  When these mechanisms are weak, teams compensate with heroics. That works until it doesn’t.
 image: "images/spotlight03.jpg"

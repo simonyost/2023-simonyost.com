@@ -1,0 +1,15 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : "Restoring Clarity Creates Measurable Leverage"
+content: |
+  When execution systems are realigned, the results compound quickly:
+  
+  <ul>
+  <li>Multi-million-dollar annual cloud cost reductions</li>
+  <li>Elimination of recurring reliability regressions</li>
+  <li>Faster scaling during high-risk events</li>
+  <li>Improved delivery predictability without adding headcount</li>
+  </ul> 
+
+  <p>The common thread is not effort. It is alignment.</p>
+image: "images/spotlight02.jpg"

@@ -1,0 +1,15 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : I Work at the Decision Layer, Not the Task Layer
+content: |
+  My role is not to manage tickets or deliver features.
+  I work with executives to:
+  
+  <ul>
+  <li>Clarify ownership across product, engineering, and data</li>
+  <li>Reduce decision latency and escalation paths</li>
+  <li>Align architecture and operating rhythms to business reality</li>
+  <li>Restore predictability without slowing momentum</li>
+  <li>This is system-level intervention, not task execution.</li>
+  </ul>
+image: "images/spotlight03.jpg"

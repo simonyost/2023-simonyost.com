@@ -1,65 +1,38 @@
-title : "Items"
+title : "Where Execution Quietly Breaks Down"
 content: |
-  This is an <strong>Items</strong> element, and it's basically just a grid for organizing items of various types. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-items">details</a>).
+  <p>By the time execution visibly slows, the underlying system has already been under strain.
+  <p>Across startups and large platforms, the failure modes are remarkably consistent. They show up in different org charts and architectures, but the mechanics are the same.
+  <p>The patterns below are the situations I am typically brought in to diagnose and correct.
+
 style: "style1 medium onscroll-fade-in"
 items:
   # feature item loop
-  - name : "One"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "style2 major fa-gem"
+  - name : "Cloud spend rises, ownership stays unclear"
+    content : AWS bills trend up month over month, but nobody can explain the top drivers, who owns them, or what “good” looks like.
+    style : "solid style2 major fa-sack-dollar"
 
   # feature item loop
-  - name : "Two"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-save"
+  - name : "Decision latency becomes the real bottleneck"
+    content : "Work is not blocked by effort. It is blocked by slow prioritization, unclear tradeoffs, and too many “shared” decisions that nobody truly owns."
+    style : "solid style2 major fa-clock"
     
   # feature item loop
-  - name : "Three"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-chart-bar"
+  - name : "Platform complexity outgrows the operating model"
+    content : "The architecture makes sense in pieces, but not as a system. Dependencies multiply, ownership fragments, and delivery becomes a coordination tax."
+    style : "solid style2 major fa-sitemap"
     
   # feature item loop
-  - name : "Four"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-wifi"
+  - name : "Reliability risk hides until peak traffic exposes it"
+    content : "Incidents are treated as surprises instead of signals. The system runs “fine” until it is under stress, then confidence collapses fast."
+    style : "solid style2 major fa-triangle-exclamation"
     
   # feature item loop
-  - name : "Five"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-cog"
+  - name : "Product and engineering drift into parallel realities"
+    content : "Roadmaps become negotiation artifacts. Engineering is busy, product is frustrated, and leadership cannot tell whether they are under-resourced or misaligned."
+    style : "solid style2 major fa-people-arrows"
     
   # feature item loop
-  - name : "Six"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "style2 major fa-paper-plane"
-    
-  # feature item loop
-  - name : "Seven"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-desktop"
-    
-  # feature item loop
-  - name : "Eight"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-sync-alt"
-    
-  # feature item loop
-  - name : "Nine"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-hashtag"
-    
-  # feature item loop
-  - name : "Ten"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-bolt"
-    
-  # feature item loop
-  - name : "Eleven"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "style2 major fa-envelope"
-    
-  # feature item loop
-  - name : "Twelve"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-leaf"
+  - name : "Cross-team work turns into a dependency maze"
+    content : "Delivery slows because every meaningful outcome crosses too many boundaries. The system lacks clear interfaces, escalation paths, and accountability."
+    style : "style2 major fa-diagram-project"
     
