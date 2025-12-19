@@ -32,9 +32,9 @@ googleAnalytics = "G-ZK9C0PHGJK"
 ## -----------------------------------------------
 
 [Params]
-  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
-  logo = "images/banner.jpg"
-  favicon = true
+  description = "When execution slows as systems scale, more resources make it worse. A systems-level advisory for leaders facing rising complexity, cost, and decision latency."
+  logo = "images/simon_010sq.jpg"
+  favicon = false
 
 [Params.social]
   # github = "https://github.com/caressofsteel/"
