@@ -16,8 +16,5 @@ content: |
 image: "images/spotlight03.jpg"
 buttons:
   # button
-  - label: "Start a Conversation"
-    link: "#contactForm"
   - label: "See the Patterns"
     link: "#patterns"
-    style : "primary"

@@ -11,10 +11,7 @@ content: |
   <li>Improved delivery predictability without adding headcount</li>
   </ul> 
 
+  <pWithout intervention, these same systems usually respond by hiring more, spending more, and trusting less.</p>
+
   <p>The common thread is not effort. It is alignment.</p>
 image: "images/spotlight02.jpg"
-buttons:
-  # button
-  - label: "Start a Conversation"
-    link: "#contactForm"
-    style : "primary"

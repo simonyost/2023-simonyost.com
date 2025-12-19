@@ -1,6 +1,6 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-title : "Start With a Short Diagnostic, Not a Long Engagement"
+title : "The First Step Is a Short Diagnostic — Not a Commitment"
 content: |
   Most engagements begin with a focused diagnostic.
   Over a short window, we examine:
@@ -12,10 +12,5 @@ content: |
   </ul> 
 
   <p>You leave with an executive-level readout and a clear recommendation on whether deeper advisory work makes sense.</p>
-  <p>Not every situation warrants deeper engagement. The diagnostic is how we determine that quickly.</p>
+  <p>Not every situation warrants deeper engagement. The diagnostic is how we determine that quickly. This is designed to create clarity, not lock you into a longer engagement.</p>
 image: "images/spotlight03.jpg"
-buttons:
-  # button
-  - label: "Start a Conversation"
-    link: "#contactForm"
-    style : "primary"

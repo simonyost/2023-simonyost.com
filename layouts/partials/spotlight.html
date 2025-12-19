@@ -5,7 +5,7 @@
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
          {{ with .buttons }}<ul class="actions">{{ end }}
             {{ range .buttons }}
-                <li><a href="{{ .link }}" class="button small {{ .style }}">{{ .label }}</a></li>
+                <li><a href="{{ .link }}" class="button {{ .style }}">{{ .label }}</a></li>
             {{ end }}
         {{ with .buttons }}</ul>{{ end }}
     </div>

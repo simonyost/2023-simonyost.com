@@ -14,12 +14,10 @@ content: |
   <li>Cloud and tooling costs rise faster than confidence</li>
   </ul>
   
-  These are not people problems. They are system problems.
+  <p>These are not people problems. They are system problems.
+  <p>Left unaddressed, these signals compound—not gradually, but suddenly.
 image: "images/spotlight01.jpg"
 buttons:
   # button
-  - label: "Start a Conversation"
-    link: "#contactForm"
   - label: "See the Patterns"
     link: "#patterns"
-    style : "primary"

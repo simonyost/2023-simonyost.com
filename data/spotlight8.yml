@@ -1,8 +1,8 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "If This Sounds Familiar, We Should Talk"
+title : "If This Feels Familiar, Ignoring It Will Be More Expensive Than Addressing It"
 content: |
-  <p>If your organization feels busy but less predictable than it should, that is a signal worth examining.</p>
+  <p>The conversation is how we determine which is true. If your organization feels busy but less predictable than it should, that is a signal worth examining.</p>
 
   <p>Start with a conversation. We will quickly determine whether this is a fit.</p>
 image: "images/spotlight03.jpg"
