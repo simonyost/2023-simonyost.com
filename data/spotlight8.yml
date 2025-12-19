@@ -8,4 +8,4 @@ content: |
 image: "images/spotlight03.jpg"
 button: 
   label: "Start a Conversation"
-  link: "#"
+  link: "#contactForm"
