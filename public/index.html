@@ -342,16 +342,16 @@ It is designed to create clarity, not lock you into a longer engagement.</p>
 
                         <div class="fields">
                             <div class="field half">
-                                <label for="name">Full Name</label>
-                                <input type="text" name="name" id="name" value="" />
+                                <label for="name">Full Name *</label>
+                                <input type="text" name="name" id="name" value="" required />
                             </div>
                             <div class="field half">
-                                <label for="email">Work Email</label>
-                                <input type="email" name="email" id="email" value="" />
+                                <label for="email">Work Email *</label>
+                                <input type="email" name="email" id="email" value="" required />
                             </div>
                             <div class="field half">
-                                <label for="name">Company</label>
-                                <input type="text" name="company" id="company" value="" />
+                                <label for="name">Company *</label>
+                                <input type="text" name="company" id="company" value="" required />
                             </div>
                             <div class="field half">
                                 <label for="email">Role / Title</label>
@@ -371,7 +371,7 @@ It is designed to create clarity, not lock you into a longer engagement.</p>
 
                             <div class="field">
                                 <label for="message">What feels most broken right now?</label>
-                                <textarea name="broken" id="broken" rows="3"></textarea>
+                                <textarea name="broken" id="broken" rows="3" required></textarea>
                             </div>
                         </div>
                         <hr />
@@ -383,7 +383,7 @@ It is designed to create clarity, not lock you into a longer engagement.</p>
                             
                             <div class="field half">
                                 <input type="checkbox" id="delivery_slowed_with_scale" name="situation[]"
-                                    value="delivery_slowed_with_scale" required />
+                                    value="delivery_slowed_with_scale" />
                                 <label for="delivery_slowed_with_scale">
                                     Delivery has slowed as we’ve scaled
                                 </label>
