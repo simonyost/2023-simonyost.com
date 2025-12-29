@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<section class="wrapper style1">
+    <div class="inner">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.description }}<p class="major">{{ . }}</p>{{ end }}
+        {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
+        {{ with .Params.booking_link }}
+        <ul class="actions small align-center">
+            <li><a class="button primary wide" href="{{ . | safeURL }}">Open booking page in a new tab</a></li>
+        </ul>
+        {{ end }}
+
+        <ul class="actions">
+            <li><a class="button small" href="{{ "/" | relURL }}">Back to the main site</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="">
+    <div class="inner">
+<!-- Google Calendar Appointment Scheduling begin -->
+<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3v2a-Xyc2puZcqYkORegnUrI_a2s4CmYkZ9wy7NPLFERXGcvQIg4YbYXRQBVxAK-1sBYAtVCh-?gv=true" style="border: 0" width="100%" height="1200" frameborder="0"></iframe>
+<!-- end Google Calendar Appointment Scheduling -->
+    </div>
+</section>
+
+
+{{ partial "footer" . }}
+
+{{ end }}
