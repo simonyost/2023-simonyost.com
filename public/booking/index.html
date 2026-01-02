@@ -1,82 +1,106 @@
 <!DOCTYPE HTML>
 
 <html>
-	
-	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-	<title>Simon Yost</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="">
-	<meta name="author" content="">
-	
-	
-	
-	
-	
-	<link rel="stylesheet" href="../css/main.css">
-	
-	
-	
-	<noscript><link rel="stylesheet" href="../css/noscript.css" /></noscript>
-	
 
-	
-	<link rel="stylesheet" href="//localhost:1313/css/fontawesome-all.min.css">
+<head>
+    <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Simon Yost</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+
+
+    <link rel="stylesheet" href="../css/main.css">
+
+
+
+    <noscript>
+        <link rel="stylesheet" href="../css/noscript.css" />
+    </noscript>
+
+
+
+    <link rel="stylesheet" href="//localhost:1313/css/fontawesome-all.min.css">
 
 </head>
 
 
-	<body class="is-preload">
+<body class="is-preload">
 
-		
-		<div id="wrapper" class="divided">
 
-<section class="wrapper style1">
-    <div class="inner">
-        <h1>Book a Conversation</h1>
-        <p class="major">Choose a time to align on the problem and what a diagnostic would look like.</p>
-        
-        
+    <div id="wrapper" class="divided">
 
-        <ul class="actions">
-            <li><a class="button small" href="../">Back to the main site</a></li>
-        </ul>
+        <section class="wrapper style1">
+            <div class="inner">
+                <h1>Book a Conversation</h1>
+                <p class="major">Choose a time to align on the problem and what a diagnostic would look like.</p>
+
+
+
+                <ul class="actions">
+                                        <li>
+                        <button class="button small primary fit icon solid fa-video" data-cal-link="simon-yost/video30"
+                            data-cal-namespace="video30" data-cal-config='{"layout":"month_view"}'>Video
+                            Meeting</button>
+                    </li>
+                    <li>
+                        <button class="button small fit icon solid fa-video" data-cal-link="simon-yost/inperson"
+                            data-cal-namespace="inperson" data-cal-config='{"layout":"month_view"}'>In Person
+                            Meeting</button>
+                    </li>
+                    <li>
+                        <a class="button small fit icon solid fa-arrow-left" href="../">Return to main site</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <footer class="wrapper style1 align-center">
+            <div class="inner">
+                <ul class="icons">
+
+
+
+                    <li><a target="_blank" href="https://instagram.com/simon.yost"
+                            class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/simonyost/"
+                            class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a target="_blank" href="mailto:simon@simonyost.com" class="fav icon style2 fa-envelope"><span
+                                class="label">Email</span></a></li>
+                </ul>
+                <p>&copy; 2025 Simon Yost</p>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="//localhost:1313/js/fontawesome-all.min.js"></script>
+
+        <!-- Video Mtg embed code begins -->
+        <script type="text/javascript">
+            (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+            Cal("init", "video30", { origin: "https://app.cal.com" });
+
+            Cal.ns.video30("ui", { "hideEventTypeDetails": false, "layout": "week_view" });
+        </script>
+        <!-- Video Mtg embed code ends -->
+
+
+        <!-- In-Person embed code begins -->
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "inperson", {origin:"https://app.cal.com"});
+
+  Cal.ns.inperson("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+  </script>
+  <!-- In-Person embed code ends -->
+
     </div>
-</section>
-
-<section class="">
-    <div class="inner">
-
-<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3v2a-Xyc2puZcqYkORegnUrI_a2s4CmYkZ9wy7NPLFERXGcvQIg4YbYXRQBVxAK-1sBYAtVCh-?gv=true" style="border: 0" width="100%" height="1200" frameborder="0"></iframe>
-
-    </div>
-</section>
-
-
-
-<footer class="wrapper style1 align-center">
-    <div class="inner">
-        <ul class="icons">
-            
-            
-            
-            <li><a target="_blank" href="https://instagram.com/simon.yost" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/simonyost/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            <li><a target="_blank" href="mailto:simon@simonyost.com" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
-        <p>&copy; 2025 Simon Yost</p>
-</div>
-</footer>
-
-
-<script type="text/javascript" src="//localhost:1313/js/fontawesome-all.min.js"></script>
-
-
-		
-		</div>
-		
-		
-		
 
 
 
@@ -89,16 +113,23 @@
 
 
 
-<script src='../js/bundle.min.js'></script>
-<script src="https://web3forms.com/client/script.js" async defer></script>
 
 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P5725S26');</script>
+
+    <script src='../js/bundle.min.js'></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 
 
-	</body>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P5725S26');</script>
+
+
+</body>
+
 </html>
